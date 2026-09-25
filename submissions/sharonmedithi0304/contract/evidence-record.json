@@ -1,0 +1,85 @@
+{
+  "record_id": "",
+  "unit_id": "",
+  "org_id": "",
+  "captured_at": "",
+  "operator_id": "",
+
+  "purchase_order": {
+    "po_number": "",
+    "po_line": "",
+    "supplier": "",
+    "sku": "",
+    "asin": "",
+    "product_title": "",
+    "expected": {
+      "colour": "",
+      "variant": "",
+      "components": [],
+      "cartons": 0,
+      "units_per_carton": 0,
+      "quantity": 0
+    }
+  },
+
+  "received": {
+    "photo_refs": [],
+    "cartons": 0,
+    "units_per_carton": 0,
+    "quantity": 0
+  },
+
+  "checks": {
+    "identity": {
+      "verdict": "UNCERTAIN",
+      "evidence": [],
+      "confidence": null
+    },
+    "quantity": {
+      "verdict": "UNCERTAIN",
+      "expected": null,
+      "observed": null,
+      "evidence": [],
+      "confidence": null
+    },
+    "carton_damage": {
+      "verdict": "UNCERTAIN",
+      "finding": "",
+      "evidence": [],
+      "confidence": null
+    },
+    "unit_damage": {
+      "verdict": "UNCERTAIN",
+      "finding": "",
+      "evidence": [],
+      "confidence": null
+    },
+    "variant": {
+      "verdict": "UNCERTAIN",
+      "expected": "",
+      "observed": "",
+      "evidence": [],
+      "confidence": null
+    },
+    "components": {
+      "verdict": "UNCERTAIN",
+      "expected": [],
+      "observed": [],
+      "evidence": [],
+      "confidence": null
+    }
+  },
+
+  "overall_verdict": "UNCERTAIN",
+
+  "findings": [],
+
+  "decision_trace": {
+    "what_received": "",
+    "what_expected": "",
+    "checks_performed": [],
+    "findings": [],
+    "verdict": "UNCERTAIN",
+    "why": ""
+  }
+}
