@@ -337,7 +337,10 @@ def check_quality_flags(unit):
     raw_flags = unit.get("quality_flags", "")
 
     if raw_flags is None:
-        raw_flags = ""
+        return uncertain_result(
+            "Quality flag evidence is missing or marked uncertain",
+            flags=None,
+        )
 
     if isinstance(raw_flags, str):
         flags = [
